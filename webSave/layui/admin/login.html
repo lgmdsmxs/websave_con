@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="库存管理 XXX企业">
+	<meta name="description" content="知乎襄阳企业是一家专注于互联网开发的企业">
+	<meta name="author" content="李乐乐">
+	<title>login</title>
+</head>
+<body>
+	<div class="layui-container-fluid">
+	<!-- warning -->
+		<header class="layui-row">
+			<div class="layui-col-md6 layui-col-md-offset3">
+				<h1 class="layui-text layui-bg-orange"><em style="font-size: 18px;margin-left: 90px;">切记：请不要透露作为管理员的信息，以免造成经济损失</em></h1>
+			</div>
+		</header>
+		<hr class="layui-bg-green">
+
+		<div class="layui-row" style="margin-top: 30px;">
+			<aside class="layui-col-md2">
+			<!-- timeline-left -->
+				<div class="layui-timeline">
+					<div class="layui-timeline-item">
+						<div class="layui-icon layui-timeline-axis">&#xe6af;</div>
+						<div class="layui-timeline-content">
+							<h3 class="layui-timeline-title">one step</h3>
+							<p>请使用管理员账号登录</p>
+						</div>
+					</div>
+					<div class="layui-timeline-item">
+						<div class="layui-icon layui-timeline-axis">&#xe6c6;</div>
+						<div class="layui-timeline-content">
+							<h3 class="layui-timeline-title">two step</h3>
+							<p>去管理员界面进行操作</p>
+						</div>
+					</div>
+					<div class="layui-timeline-item">
+						<div class="layui-icon layui-timeline-axis">&#xe60c;</div>
+						<div class="layui-timeline-content">
+							<h3 class="layui-timeline-title">three step</h3>
+							<p>记录该公司的库存信息</p>
+						</div>
+					</div>
+					<div class="layui-timeline-item">
+						<div class="layui-icon layui-timeline-axis">&#xe60c;</div>
+						<div class="layui-timeline-content">
+							<h3 class="layui-timeline-title">four step</h3>
+							<p>顺带查看信息</p>
+						</div>
+					</div>
+					<div class="layui-timeline-item">
+						<div class="layui-icon layui-timeline-axis">&#xe60c;</div>
+						<div class="layui-timeline-content">
+							<h3 class="layui-timeline-title">five step</h3>
+							<p>祝您体验的舒服-.-</p>
+						</div>
+					</div>
+				</div>
+			</aside>
+		<section class="layui-col-md4 layui-col-md-offset2">
+		<!-- form -->
+			<form class="layui-form layui-form-pane">
+					<div class="layui-form-item">
+						<label class="layui-form-label">username:</label>
+						<div class="layui-input-block">
+							<input type="text" autocomplete="off" class="layui-input" placeholder="请输入管理员用户名" lay-verify="required|username" name="username">
+						</div>
+					</div>
+					<div class="layui-form-item">
+						<label class="layui-form-label">password:</label>
+						<div class="layui-input-block">
+							<input type="password" autocomplete="off" class="layui-input" placeholder="请输入管理员密码" lay-verify="required|password" name="password">
+						</div>
+					</div>
+					<div class="layui-form-item">
+							<label class="layui-form-label">验证码</label>
+							<div class="layui-input-inline" style="width: 80px;">
+								<input type="text" class="layui-input check_yzm" autocomplete="off" placeholder="请输入验证码">
+							</div>
+							<div class="layui-form-mid">验证码-></div>
+							<div class="layui-input-inline" style="width: 80px;">
+								<input type="text" class="layui-input yzm layui-bg-green" value="" readonly="true">
+							</div>	
+					</div>
+					<button type="button" class="layui-btn layui-btn-fluid login" lay-submit lay-filter="login">登录</button>
+			</form>
+		</section>
+	<!-- timeline-right -->
+		<aside class="layui-col-md2 layui-col-md-offset2">
+				<div class="layui-timeline">
+					<div class="layui-timeline-item">
+						<div class="layui-icon layui-timeline-axis">&#xe6af;</div>
+						<div class="layui-timeline-content">
+							<h3 class="layui-timeline-title">反馈</h3>
+							<p>有什么问题可以跟我们反馈:99577925</p>
+						</div>
+					</div>
+					<div class="layui-timeline-item">
+						<div class="layui-icon layui-timeline-axis">&#xe6c6;</div>
+						<div class="layui-timeline-content">
+							<h3 class="layui-timeline-title">联系</h3>
+							<p>有意愿与我们合作也可以联系我们:99577925</p>
+						</div>
+					</div>
+					<div class="layui-timeline-item">
+						<div class="layui-icon layui-timeline-axis">&#xe60c;</div>
+						<div class="layui-timeline-content">
+							<h3 class="layui-timeline-title">不满</h3>
+							<p>对我们公司有什么不满<span class="layui-icon">&#xe623;我们接受:99577925</span></p>
+						</div>
+					</div>
+				</div>
+		</aside>
+	</div>
+	<hr class="layui-bg-green" style="margin-top: 60px;box-shadow: 5px 5px 5px black;">
+		<!-- footer -->
+		<footer class="layui-row">
+			<div class="layui-col-md4">
+				<div class="layui-row">
+					<p class="layui-text"><em>QQ</em>:99577925</p>
+				</div>
+				<div class="layui-row">
+					<p class="layui-text"><em>微博</em>:旧人旧城旧回忆--</p>
+				</div>
+				<div class="layui-row">
+					<p class="layui-text"><em>手机号</em>:15927651191</p>
+				</div>
+				<div class="layui-row">
+					<p class="layui-text"><em>毕业设计</em>:基于web的企业库存管理系统</p>
+				</div>
+				<div class="layui-row">
+					<p class="layui-text"><em>实现技术</em>:前台layui,后台php,前后接口:ajax,数据传送:json,设计指导人:黄经理</p>
+				</div>
+			</div>
+			<div class="layui-col-md4" style="margin-top: 100px;">
+				<p class="layui-text layui-bg-cyan"><strong style="margin-left: 120px;">在法律的范围内具有合法的解释权</strong></p>
+			</div>
+			<div class="layui-col-md4">
+					<p class="layui-text"><em>Copyright © 2017 - 2018 Comsenz Inc.</em></p>
+			</div>
+		</footer>
+	</div>
+	<link rel="stylesheet" href="../css/layui.css">
+	<link rel="stylesheet" href="../index/index.css">
+	<script src="../layui.js"></script>
+	<script>
+		layui.config({
+			base:"../index/"
+		}).use("index");
+	</script>
+</body>
+</html>

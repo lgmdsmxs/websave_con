@@ -1,0 +1,1 @@
+主界面index.html，js全部保存在index.js文件里面，服务器apache，直接下一个phpstudy，将文件放置在根目录www下便可以。

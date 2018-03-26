@@ -1,0 +1,23 @@
+.header
+{
+	box-shadow: 5px 5px 5px black;
+}
+.header_h
+{
+	line-height: 120px;
+	color:#0c090a;
+}
+.header_nav
+{
+	margin-top: 30px;
+}
+.p
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.yzm
+{
+	letter-spacing: 4px;
+}
